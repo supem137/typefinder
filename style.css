@@ -1,0 +1,65 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #02133b;
+}
+#txtNum{
+    width: 400px;
+    height: 25px;
+    font-family:'Roboto', sans-serif,bold;
+    border: solid #2155CD;
+}
+#btnGenerate{
+    font-family:'Roboto', sans-serif,bold;
+    height: 30px;
+    background-color: #9BA3EB;
+    border: solid #646FD4;
+}
+.oddPrimeStyle{
+    display: grid;
+    background-color: #55D8C1;
+    width: 65px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
+}
+.evenPrimeStyle{
+    display: grid;
+    background-color: #AB46D2;
+    width: 65px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
+}
+.oddNotPrimeStyle{
+    display: grid;
+    background-color: #FCF69C;
+    width: 65px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
+}
+.evenNotPrimeStyle{
+    display: grid;
+    background-color: #FF6FB5;
+    width: 65px;
+    height: 35px;
+    justify-content: center;
+    align-content: center;
+}
+div{
+    font-family:'Roboto', sans-serif;
+}
+#container1{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#container{
+    display: grid;
+    grid-template-columns: 65px 65px 65px 65px 65px 65px 65px 65px 65px;
+    gap: 5px;
+    justify-content: center;
+}
+
+
